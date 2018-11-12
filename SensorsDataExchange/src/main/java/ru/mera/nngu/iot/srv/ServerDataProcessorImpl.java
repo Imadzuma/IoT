@@ -87,8 +87,6 @@ public class ServerDataProcessorImpl implements ServerDataProcessor
                 }
                 log.info("Finished monitoring Data Bus for new events");
             });
-            
-            
         }
         else
             log.error("You should specify decoder before start");
